@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-container {
+  background-color: rgb(118, 48, 142);
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
+
+.top-nav {
+  /* border: 1px solid black; */
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-pic {
+  height: 30px;
+  width: 30px;
+}
+
+.top-right {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.top-left {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-bar {
+  width: 200px;
+  height: 30px;
+  background-color: rgb(118, 48, 142);
+  margin-left: 20px;
+}
+
+.main {
+  /* border: 1px solid red; */
+  margin: 5px 200px 0px 250px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(118, 48, 142);
+}
+
+.main-left {
+  border: 1px solid blue;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(118, 48, 142);
+  color: white;
+}
+
+.main-right {
+  /* border: 1px solid blue; */
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(241, 235, 246);
+  color: rgba(118, 48, 142);
+  width: 400px;
+}
+
+.photo {
+  border: 1px solid green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 200px 5px 250px;
+  height: 300px;
+}
+
+.actors-photo {
+  display: flex;
+  justify-content: flex-end;
+  height:298px;
+  width: 828px;
+}
+
+.vertical-nav {
+  border: 1px solid blue;
+  display: flex;
+  width: 50px;
+  flex-direction: column;
+}
